@@ -27,8 +27,8 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'What are the contibutors? Enter a list of @usernames, or @organization',
-    name: 'contributors',
+    message: 'Provide the instructions for contributors',
+    name: 'contributing',
     },
     {
     type: 'input',

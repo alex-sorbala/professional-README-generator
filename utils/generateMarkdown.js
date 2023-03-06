@@ -47,14 +47,14 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Contributing
-  The below teams/users have contibuted to this repository:
-  ${data.contributors}
+
+  ${data.contributing}
 
   ## Tests
   ${data.tests}
 
   ## Questions
-  Ask @${data.username} a question. You can reach me by email ${data.email}
+  Ask @${data.username} a question. You can reach me by email [${data.email}]()
 
   `;
 }
